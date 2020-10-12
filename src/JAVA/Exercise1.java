@@ -1,25 +1,25 @@
 package JAVA;
+
 //替换问号
 //leetcode1576
-public class Exercise1{
+public class Exercise1 {
     public String modifyString(String s) {
-            //improved version
-            char[] c=s.toCharArray();
-            int length=c.length;
+        //improved version
+        char[] c = s.toCharArray();
+        int length = c.length;
 
-            for(int i=0;i<length;i++){
-                if(c[i]=='?'){
-                    char ahead=(i==1)?' ':c[i-1];
-                    char behind=(i==length-1)?' ':c[i+1];
-                    char temp='a';
+        for (int i = 0; i < length; i++) {
+            if (c[i] == '?') {
+                char ahead = (i == 1) ? ' ' : c[i - 1];
+                char behind = (i == length - 1) ? ' ' : c[i  + 1];
+                char temp = 'a';
 
-                    while(ahead==temp || behind==temp)
-                        temp++;
-                    c[i]=temp;
-                }
+                while (ahead == temp || behind == temp)
+                    temp++;
+                c[i] = temp;
             }
-            return new String(c);
-
+        }
+        return new String(c);
 
 
         //own version
