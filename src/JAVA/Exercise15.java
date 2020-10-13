@@ -6,10 +6,10 @@ import java.util.LinkedList;
 
 //这道题对栈和队列的理解很有帮助，这一次并没有实现，看的别人的代码
 //但是着重是理解栈和队列的特性
-public class CQueue {
+public class Exercise15 {
     LinkedList<Integer> A, B;
 
-    public CQueue() {
+    public Exercise15() {
         A = new LinkedList<Integer>();
         B = new LinkedList<Integer>();
     }
