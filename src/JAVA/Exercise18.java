@@ -23,9 +23,9 @@ public class Exercise18 {
         C.add(A.remove(A.size() - 1));
         move(n - 1, B, A, C);
     }
-     public static void main(String[] args)
-        hanota([2,0,1],[],[]);
-     }
+//     public static void main(String[] args)
+//        hanota([2,0,1],[],[]);
+//     }
 
     //    最初的错误解法
 //    public void hanota(List<Integer> A, List<Integer> B, List<Integer> C) {
