@@ -3,6 +3,9 @@ package JAVA;
 //剑指 Offer 10- II. 青蛙跳台阶问题
 //leetcode
 
+
+//我的解法是从顶向下计算，因此若不加数组存储时间会很长
+//大神解法自底向上计算，因此无需额外空间存储，更优越
 public class Exercise20 {
     int[] steps;
     int[] flags;
