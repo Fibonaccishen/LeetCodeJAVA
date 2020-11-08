@@ -1,5 +1,5 @@
 package JAVA;
-//658. 找到k个最接近的数    
+//658. 找到k个最接近的数
 //leetcode
 import java.util.ArrayList;
 import java.util.Arrays;
